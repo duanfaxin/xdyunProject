@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/my_curl_app.dir/src/main.cpp.o -o my_curl_app  -lcurl
