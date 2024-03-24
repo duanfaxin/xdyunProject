@@ -1,0 +1,3 @@
+/home/xdyun/xdyunGit/xdyunProject/CppTicketGrabbing/bulid/CMakeFiles/my_curl_app.dir
+/home/xdyun/xdyunGit/xdyunProject/CppTicketGrabbing/bulid/CMakeFiles/edit_cache.dir
+/home/xdyun/xdyunGit/xdyunProject/CppTicketGrabbing/bulid/CMakeFiles/rebuild_cache.dir
