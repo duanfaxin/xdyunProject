@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "MyPistacheProject",
+					"name" : "Pistache",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "MyPistacheProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MyPistacheProject-69fea87bf339874162d7.json",
-					"name" : "MyPistacheProject",
+					"id" : "Pistache::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pistache-e8147335e5a8d172bf29.json",
+					"name" : "Pistache",
 					"projectIndex" : 0
 				}
 			]

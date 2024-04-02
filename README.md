@@ -29,3 +29,8 @@
 4.  新建 Pull Request
 
 
+#### 内网穿透
+1. 穿透工具 localtunnel
+2. 使用方法 npx localtunnel --port + 端口号
+3. 使用说明 https://github.com/localtunnel/localtunnel
+4. 效果 产生一个公网地址可以访问

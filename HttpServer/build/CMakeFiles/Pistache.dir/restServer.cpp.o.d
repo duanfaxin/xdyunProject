@@ -1,9 +1,7 @@
-CMakeFiles/MyPistacheProject.dir/httpServer.cpp.o: \
- /home/xdyun/xdyunGit/xdyunProject/HttpServer/httpServer.cpp \
- /usr/include/stdc-predef.h \
- /home/xdyun/tools/pistache/include/pistache/endpoint.h \
- /home/xdyun/tools/pistache/include/pistache/http.h \
- /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
+CMakeFiles/Pistache.dir/restServer.cpp.o: \
+ /home/xdyun/xdyunGit/xdyunProject/HttpServer/restServer.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -100,8 +98,11 @@ CMakeFiles/MyPistacheProject.dir/httpServer.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/cstdint \
+ /usr/include/c++/11/pstl/execution_defs.h \
+ /home/xdyun/tools/pistache/include/pistache/endpoint.h \
+ /home/xdyun/tools/pistache/include/pistache/http.h \
+ /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
+ /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -294,4 +295,25 @@ CMakeFiles/MyPistacheProject.dir/httpServer.cpp.o: \
  /home/xdyun/tools/pistache/include/pistache/listener.h \
  /home/xdyun/tools/pistache/include/pistache/log.h \
  /home/xdyun/tools/pistache/include/pistache/string_logger.h \
- /home/xdyun/tools/pistache/include/pistache/ssl_wrappers.h
+ /home/xdyun/tools/pistache/include/pistache/ssl_wrappers.h \
+ /home/xdyun/tools/pistache/include/pistache/router.h \
+ /usr/include/c++/11/regex /usr/include/c++/11/iterator \
+ /usr/include/c++/11/bits/stream_iterator.h /usr/include/c++/11/locale \
+ /usr/include/c++/11/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11/bits/locale_conv.h /usr/include/c++/11/stack \
+ /usr/include/c++/11/bits/stl_stack.h \
+ /usr/include/c++/11/bits/regex_constants.h \
+ /usr/include/c++/11/bits/regex_error.h \
+ /usr/include/c++/11/bits/regex_automaton.h \
+ /usr/include/c++/11/bits/regex_automaton.tcc \
+ /usr/include/c++/11/bits/regex_scanner.h \
+ /usr/include/c++/11/bits/regex_scanner.tcc \
+ /usr/include/c++/11/bits/regex_compiler.h \
+ /usr/include/c++/11/bits/regex_compiler.tcc \
+ /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
+ /usr/include/c++/11/bits/regex_executor.h \
+ /usr/include/c++/11/bits/regex_executor.tcc

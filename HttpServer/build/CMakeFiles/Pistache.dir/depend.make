@@ -1,2 +1,2 @@
-# Empty dependencies file for MyPistacheProject.
+# Empty dependencies file for Pistache.
 # This may be replaced when dependencies are built.

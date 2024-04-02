@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/xdyun/xdyunGit/xdyunProject/HttpServer/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MyPistacheProject.dir/all
+all: CMakeFiles/Pistache.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MyPistacheProject.dir/clean
+clean: CMakeFiles/Pistache.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MyPistacheProject.dir
+# Target rules for target CMakeFiles/Pistache.dir
 
 # All Build rule for target.
-CMakeFiles/MyPistacheProject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyPistacheProject.dir/build.make CMakeFiles/MyPistacheProject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyPistacheProject.dir/build.make CMakeFiles/MyPistacheProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=1,2 "Built target MyPistacheProject"
-.PHONY : CMakeFiles/MyPistacheProject.dir/all
+CMakeFiles/Pistache.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=1,2 "Built target Pistache"
+.PHONY : CMakeFiles/Pistache.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MyPistacheProject.dir/rule: cmake_check_build_system
+CMakeFiles/Pistache.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyPistacheProject.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Pistache.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles 0
-.PHONY : CMakeFiles/MyPistacheProject.dir/rule
+.PHONY : CMakeFiles/Pistache.dir/rule
 
 # Convenience name for target.
-MyPistacheProject: CMakeFiles/MyPistacheProject.dir/rule
-.PHONY : MyPistacheProject
+Pistache: CMakeFiles/Pistache.dir/rule
+.PHONY : Pistache
 
 # clean rule for target.
-CMakeFiles/MyPistacheProject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyPistacheProject.dir/build.make CMakeFiles/MyPistacheProject.dir/clean
-.PHONY : CMakeFiles/MyPistacheProject.dir/clean
+CMakeFiles/Pistache.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/clean
+.PHONY : CMakeFiles/Pistache.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

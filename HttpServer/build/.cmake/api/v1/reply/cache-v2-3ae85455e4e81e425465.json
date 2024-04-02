@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "MyPistacheProject"
+			"value" : "Pistache"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1150,7 +1150,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "MyPistacheProject_BINARY_DIR",
+			"name" : "Pistache_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1162,7 +1162,7 @@
 			"value" : "/home/xdyun/xdyunGit/xdyunProject/HttpServer/build"
 		},
 		{
-			"name" : "MyPistacheProject_IS_TOP_LEVEL",
+			"name" : "Pistache_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1174,7 +1174,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "MyPistacheProject_SOURCE_DIR",
+			"name" : "Pistache_SOURCE_DIR",
 			"properties" : 
 			[
 				{

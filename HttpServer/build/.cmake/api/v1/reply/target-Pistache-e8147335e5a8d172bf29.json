@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MyPistacheProject"
+			"path" : "Pistache"
 		}
 	],
 	"backtrace" : 1,
@@ -60,7 +60,7 @@
 			]
 		}
 	],
-	"id" : "MyPistacheProject::@6890427a1f51a3e7e1df",
+	"id" : "Pistache::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "MyPistacheProject",
-	"nameOnDisk" : "MyPistacheProject",
+	"name" : "Pistache",
+	"nameOnDisk" : "Pistache",
 	"paths" : 
 	{
 		"build" : ".",
@@ -99,7 +99,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "httpServer.cpp",
+			"path" : "restServer.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

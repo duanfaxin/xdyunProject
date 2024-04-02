@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyPistacheProject
+# Target rules for targets named Pistache
 
 # Build rule for target.
-MyPistacheProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyPistacheProject
-.PHONY : MyPistacheProject
+Pistache: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Pistache
+.PHONY : Pistache
 
 # fast build rule for target.
-MyPistacheProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyPistacheProject.dir/build.make CMakeFiles/MyPistacheProject.dir/build
-.PHONY : MyPistacheProject/fast
+Pistache/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/build
+.PHONY : Pistache/fast
 
-httpServer.o: httpServer.cpp.o
-.PHONY : httpServer.o
+restServer.o: restServer.cpp.o
+.PHONY : restServer.o
 
 # target to build an object file
-httpServer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyPistacheProject.dir/build.make CMakeFiles/MyPistacheProject.dir/httpServer.cpp.o
-.PHONY : httpServer.cpp.o
+restServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/restServer.cpp.o
+.PHONY : restServer.cpp.o
 
-httpServer.i: httpServer.cpp.i
-.PHONY : httpServer.i
+restServer.i: restServer.cpp.i
+.PHONY : restServer.i
 
 # target to preprocess a source file
-httpServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyPistacheProject.dir/build.make CMakeFiles/MyPistacheProject.dir/httpServer.cpp.i
-.PHONY : httpServer.cpp.i
+restServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/restServer.cpp.i
+.PHONY : restServer.cpp.i
 
-httpServer.s: httpServer.cpp.s
-.PHONY : httpServer.s
+restServer.s: restServer.cpp.s
+.PHONY : restServer.s
 
 # target to generate assembly for a file
-httpServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyPistacheProject.dir/build.make CMakeFiles/MyPistacheProject.dir/httpServer.cpp.s
-.PHONY : httpServer.cpp.s
+restServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/restServer.cpp.s
+.PHONY : restServer.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MyPistacheProject"
-	@echo "... httpServer.o"
-	@echo "... httpServer.i"
-	@echo "... httpServer.s"
+	@echo "... Pistache"
+	@echo "... restServer.o"
+	@echo "... restServer.i"
+	@echo "... restServer.s"
 .PHONY : help
 
 
