@@ -1,0 +1,3 @@
+/home/xdyun/xdyunGit/xdyunProject/build/CMakeFiles/my_curl_app.dir
+/home/xdyun/xdyunGit/xdyunProject/build/CMakeFiles/edit_cache.dir
+/home/xdyun/xdyunGit/xdyunProject/build/CMakeFiles/rebuild_cache.dir

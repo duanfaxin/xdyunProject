@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/xdyun/xdyunGit/xdyunProject/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/my_curl_app.dir/src/main.cpp.o -c /home/xdyun/xdyunGit/xdyunProject/CppTicketGrabbing/src/main.cpp",
+  "file": "/home/xdyun/xdyunGit/xdyunProject/CppTicketGrabbing/src/main.cpp",
+  "output": "CMakeFiles/my_curl_app.dir/src/main.cpp.o"
+}
+]
