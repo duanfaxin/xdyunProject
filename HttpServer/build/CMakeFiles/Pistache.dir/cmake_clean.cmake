@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Pistache.dir/restServer.cpp.o"
   "CMakeFiles/Pistache.dir/restServer.cpp.o.d"
+  "CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o"
+  "CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o.d"
   "Pistache"
   "Pistache.pdb"
 )

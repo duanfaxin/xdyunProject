@@ -5,6 +5,8 @@
 #include <pistache/http.h>
 #include <pistache/router.h>
 
+#include "./include/GetDisplayContent.hpp"
+
 using namespace Pistache;
 
 namespace Generic
@@ -44,7 +46,9 @@ private:
     {
         using namespace Rest;
         // Routes::Get(router, "", Routes::bind(&StatsEndpoint::doRunAll, this));     // 绑定回调函数
-        Routes::Get(router, "/run", Routes::bind(&StatsEndpoint::doRunAll, this)); // 绑定回调函数
+        Routes::Get(router, "/images", Routes::bind(&StatsEndpoint::getImages, this)); // 绑定回调函数
+        Routes::Get(router, "/", Routes::bind(&StatsEndpoint::doIndex, this));         // 绑定回调函数
+        Routes::Get(router, "/run", Routes::bind(&StatsEndpoint::doRunAll, this));     // 绑定回调函数
         Routes::Get(router, "/run/:id", Routes::bind(&StatsEndpoint::doRunID, this));
         Routes::Post(router, "/params_json", Routes::bind(&StatsEndpoint::doPostParamsJson, this));
         Routes::Post(router, "/runresult/:id/time/:time/predictday/:day", Routes::bind(&StatsEndpoint::doGetRunResult, this)); // 需要确认
@@ -54,9 +58,29 @@ private:
         Routes::Get(router, "/eleusers/:id", Routes::bind(&StatsEndpoint::doGetTarget, this));
     }
 
+    void getImages(const Rest::Request &request, Http::ResponseWriter response)
+    {
+        fileReadTool.Clear();
+        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/Display/newIndex.html");
+        std::string content = fileReadTool.getContent();
+        response.send(Http::Code::Ok, content);
+    }
+
+    void doIndex(const Rest::Request &request, Http::ResponseWriter response)
+    {
+        fileReadTool.Clear();
+        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/Display/newIndex.html");
+        std::string content = fileReadTool.getContent();
+        response.send(Http::Code::Ok, content);
+    }
+
     void doRunAll(const Rest::Request &request, Http::ResponseWriter response)
     {
-        response.send(Http::Code::Ok, "doRunAll");
+        fileReadTool.Clear();
+        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/HttpServer/Display/index.html");
+        std::string content = fileReadTool.getContent();
+        // response.send(Http::Code::Ok, "doRunAll");
+        response.send(Http::Code::Ok, content);
     }
 
     void doRunID(const Rest::Request &request, Http::ResponseWriter response)
@@ -106,11 +130,15 @@ private:
 
     std::shared_ptr<Http::Endpoint> httpEndpoint;
     Rest::Router router;
+
+    // 私有成员工具
+private:
+    FileReadTool fileReadTool;
 };
 
 int main(int argc, char *argv[])
 {
-    Port port(9080);
+    Port port(8080);
 
     int thr = 4;
 

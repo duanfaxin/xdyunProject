@@ -153,6 +153,30 @@ restServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/restServer.cpp.s
 .PHONY : restServer.cpp.s
 
+src/GetDisplayContent.o: src/GetDisplayContent.cpp.o
+.PHONY : src/GetDisplayContent.o
+
+# target to build an object file
+src/GetDisplayContent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o
+.PHONY : src/GetDisplayContent.cpp.o
+
+src/GetDisplayContent.i: src/GetDisplayContent.cpp.i
+.PHONY : src/GetDisplayContent.i
+
+# target to preprocess a source file
+src/GetDisplayContent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.i
+.PHONY : src/GetDisplayContent.cpp.i
+
+src/GetDisplayContent.s: src/GetDisplayContent.cpp.s
+.PHONY : src/GetDisplayContent.s
+
+# target to generate assembly for a file
+src/GetDisplayContent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.s
+.PHONY : src/GetDisplayContent.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... restServer.o"
 	@echo "... restServer.i"
 	@echo "... restServer.s"
+	@echo "... src/GetDisplayContent.o"
+	@echo "... src/GetDisplayContent.i"
+	@echo "... src/GetDisplayContent.s"
 .PHONY : help
 
 

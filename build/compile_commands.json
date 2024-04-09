@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/xdyun/xdyunGit/xdyunProject/build",
+  "command": "/usr/bin/g++ -I/home/xdyun/tools/pistache/include -g -o CMakeFiles/Pistache.dir/restServer.cpp.o -c /home/xdyun/xdyunGit/xdyunProject/HttpServer/restServer.cpp",
+  "file": "/home/xdyun/xdyunGit/xdyunProject/HttpServer/restServer.cpp",
+  "output": "CMakeFiles/Pistache.dir/restServer.cpp.o"
+}
+]
