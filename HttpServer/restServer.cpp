@@ -31,6 +31,7 @@ public:
     {
         auto opts = Http::Endpoint::options()
                         .threads(static_cast<int>(thr));
+
         httpEndpoint->init(opts);
         setupRoutes();
     }
@@ -61,7 +62,7 @@ private:
     void getImages(const Rest::Request &request, Http::ResponseWriter response)
     {
         fileReadTool.Clear();
-        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/Display/newIndex.html");
+        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/index.html");
         std::string content = fileReadTool.getContent();
         response.send(Http::Code::Ok, content);
     }
@@ -69,7 +70,7 @@ private:
     void doIndex(const Rest::Request &request, Http::ResponseWriter response)
     {
         fileReadTool.Clear();
-        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/Display/newIndex.html");
+        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/newIndex.html");
         std::string content = fileReadTool.getContent();
         response.send(Http::Code::Ok, content);
     }
@@ -77,7 +78,7 @@ private:
     void doRunAll(const Rest::Request &request, Http::ResponseWriter response)
     {
         fileReadTool.Clear();
-        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/HttpServer/Display/index.html");
+        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/Display/index.html");
         std::string content = fileReadTool.getContent();
         // response.send(Http::Code::Ok, "doRunAll");
         response.send(Http::Code::Ok, content);
@@ -138,7 +139,7 @@ private:
 
 int main(int argc, char *argv[])
 {
-    Port port(8080);
+    Port port(7080);
 
     int thr = 4;
 
