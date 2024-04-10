@@ -1,4 +1,6 @@
 #include "../include/GetDisplayContent.hpp"
+#include <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -28,4 +30,22 @@ bool FileReadTool::Clear()
 {
     fileContent = "";
     return true;
+}
+
+bool FileReadTool::readImagesToString(std::string imagePath)
+{
+    Clear();
+    std::ifstream imageFile(imagePath, std::ios::binary);
+    if (imageFile)
+    {
+        std::ostringstream oss;
+        oss << imageFile.rdbuf();
+        fileContent = oss.str();
+        return true;
+    }
+    else
+    {
+        std::cout << "not found" << endl;
+        return false;
+    }
 }

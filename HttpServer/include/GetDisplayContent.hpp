@@ -12,6 +12,8 @@ class FileReadTool
 public:
     bool readFromFileToString(std::string filePath);
 
+    bool readImagesToString(std::string filePath);
+
     std::string getContent();
 
     bool Clear();

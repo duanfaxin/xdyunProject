@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Pistache.dir/restServer.cpp.o CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o -o Pistache  -lpistache
+/usr/bin/c++ CMakeFiles/Pistache.dir/restServer.cpp.o CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o CMakeFiles/Pistache.dir/src/logger.cpp.o -o Pistache  -lpistache

@@ -63,6 +63,13 @@ build CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o: CXX_COMPILER__Pistach
   OBJECT_DIR = CMakeFiles/Pistache.dir
   OBJECT_FILE_DIR = CMakeFiles/Pistache.dir/src
 
+build CMakeFiles/Pistache.dir/src/logger.cpp.o: CXX_COMPILER__Pistache_unscanned_Debug /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/logger.cpp || cmake_object_order_depends_target_Pistache
+  DEP_FILE = CMakeFiles/Pistache.dir/src/logger.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/xdyun/tools/pistache/include
+  OBJECT_DIR = CMakeFiles/Pistache.dir
+  OBJECT_FILE_DIR = CMakeFiles/Pistache.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Pistache
@@ -71,7 +78,7 @@ build CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o: CXX_COMPILER__Pistach
 #############################################
 # Link the executable Pistache
 
-build Pistache: CXX_EXECUTABLE_LINKER__Pistache_Debug CMakeFiles/Pistache.dir/restServer.cpp.o CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o
+build Pistache: CXX_EXECUTABLE_LINKER__Pistache_Debug CMakeFiles/Pistache.dir/restServer.cpp.o CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o CMakeFiles/Pistache.dir/src/logger.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lpistache
   OBJECT_DIR = CMakeFiles/Pistache.dir

@@ -6,6 +6,7 @@
 #include <pistache/router.h>
 
 #include "./include/GetDisplayContent.hpp"
+#include <unistd.h>
 
 using namespace Pistache;
 
@@ -61,16 +62,41 @@ private:
 
     void getImages(const Rest::Request &request, Http::ResponseWriter response)
     {
-        fileReadTool.Clear();
-        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/index.html");
-        std::string content = fileReadTool.getContent();
-        response.send(Http::Code::Ok, content);
+        // std::cout << __FUNCTION__ << "    " << __LINE__ << endl;
+        // 解析图片，为图片创建链接URL
+        if (fileReadTool.readImagesToString("/home/xdyun/xdyunGit/xdyunProject/Display/images/123.jpg"))
+        {
+            std::string imageData = fileReadTool.getContent();
+            response.headers().add<Http::Header::ContentType>("image/png");
+            response.send(Http::Code::Ok, imageData);
+        }
+        else
+        {
+            response.send(Http::Code::Not_Found);
+        }
+
+        // std::string imagePath = "/home/xdyun/xdyunGit/xdyunProject/Display/images/123.jpg"; // + request.param(":image").as<std::string>();
+        // std::ifstream imageFile(imagePath, std::ios::binary);
+        // if (imageFile)
+        // {
+        //     // std::cout << " found" << endl;
+        //     std::ostringstream oss;
+        //     oss << imageFile.rdbuf();
+        //     std::string imageData = oss.str();
+        //     response.headers().add<Http::Header::ContentType>("image/png");
+        //     response.send(Http::Code::Ok, imageData);
+        // }
+        // else
+        // {
+        //     std::cout << "not found" << endl;
+        //     response.send(Http::Code::Not_Found);
+        // }
     }
 
     void doIndex(const Rest::Request &request, Http::ResponseWriter response)
     {
         fileReadTool.Clear();
-        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/newIndex.html");
+        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/Display/index.html");
         std::string content = fileReadTool.getContent();
         response.send(Http::Code::Ok, content);
     }
@@ -78,7 +104,7 @@ private:
     void doRunAll(const Rest::Request &request, Http::ResponseWriter response)
     {
         fileReadTool.Clear();
-        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/Display/index.html");
+        fileReadTool.readFromFileToString("/home/xdyun/xdyunGit/xdyunProject/Display/newIndex.html");
         std::string content = fileReadTool.getContent();
         // response.send(Http::Code::Ok, "doRunAll");
         response.send(Http::Code::Ok, content);
@@ -139,7 +165,7 @@ private:
 
 int main(int argc, char *argv[])
 {
-    Port port(7080);
+    Port port(9080);
 
     int thr = 4;
 
