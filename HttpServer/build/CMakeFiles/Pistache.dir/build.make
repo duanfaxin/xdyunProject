@@ -97,35 +97,51 @@ CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/GetDisplayContent.cpp -o CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.s
 
-CMakeFiles/Pistache.dir/src/logger.cpp.o: CMakeFiles/Pistache.dir/flags.make
-CMakeFiles/Pistache.dir/src/logger.cpp.o: /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/logger.cpp
-CMakeFiles/Pistache.dir/src/logger.cpp.o: CMakeFiles/Pistache.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pistache.dir/src/logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Pistache.dir/src/logger.cpp.o -MF CMakeFiles/Pistache.dir/src/logger.cpp.o.d -o CMakeFiles/Pistache.dir/src/logger.cpp.o -c /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/logger.cpp
+CMakeFiles/Pistache.dir/src/Logger.cpp.o: CMakeFiles/Pistache.dir/flags.make
+CMakeFiles/Pistache.dir/src/Logger.cpp.o: /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp
+CMakeFiles/Pistache.dir/src/Logger.cpp.o: CMakeFiles/Pistache.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pistache.dir/src/Logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Pistache.dir/src/Logger.cpp.o -MF CMakeFiles/Pistache.dir/src/Logger.cpp.o.d -o CMakeFiles/Pistache.dir/src/Logger.cpp.o -c /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp
 
-CMakeFiles/Pistache.dir/src/logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Pistache.dir/src/logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/logger.cpp > CMakeFiles/Pistache.dir/src/logger.cpp.i
+CMakeFiles/Pistache.dir/src/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Pistache.dir/src/Logger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp > CMakeFiles/Pistache.dir/src/Logger.cpp.i
 
-CMakeFiles/Pistache.dir/src/logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Pistache.dir/src/logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/logger.cpp -o CMakeFiles/Pistache.dir/src/logger.cpp.s
+CMakeFiles/Pistache.dir/src/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Pistache.dir/src/Logger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp -o CMakeFiles/Pistache.dir/src/Logger.cpp.s
+
+CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o: CMakeFiles/Pistache.dir/flags.make
+CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o: /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp
+CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o: CMakeFiles/Pistache.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o -MF CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o.d -o CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o -c /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp
+
+CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp > CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.i
+
+CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp -o CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.s
 
 # Object files for target Pistache
 Pistache_OBJECTS = \
 "CMakeFiles/Pistache.dir/restServer.cpp.o" \
 "CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o" \
-"CMakeFiles/Pistache.dir/src/logger.cpp.o"
+"CMakeFiles/Pistache.dir/src/Logger.cpp.o" \
+"CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o"
 
 # External object files for target Pistache
 Pistache_EXTERNAL_OBJECTS =
 
 Pistache: CMakeFiles/Pistache.dir/restServer.cpp.o
 Pistache: CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.o
-Pistache: CMakeFiles/Pistache.dir/src/logger.cpp.o
+Pistache: CMakeFiles/Pistache.dir/src/Logger.cpp.o
+Pistache: CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o
 Pistache: CMakeFiles/Pistache.dir/build.make
 Pistache: CMakeFiles/Pistache.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Pistache"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Pistache"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pistache.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

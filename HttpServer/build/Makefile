@@ -177,29 +177,53 @@ src/GetDisplayContent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/GetDisplayContent.cpp.s
 .PHONY : src/GetDisplayContent.cpp.s
 
-src/logger.o: src/logger.cpp.o
-.PHONY : src/logger.o
+src/Logger.o: src/Logger.cpp.o
+.PHONY : src/Logger.o
 
 # target to build an object file
-src/logger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/logger.cpp.o
-.PHONY : src/logger.cpp.o
+src/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/Logger.cpp.o
+.PHONY : src/Logger.cpp.o
 
-src/logger.i: src/logger.cpp.i
-.PHONY : src/logger.i
+src/Logger.i: src/Logger.cpp.i
+.PHONY : src/Logger.i
 
 # target to preprocess a source file
-src/logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/logger.cpp.i
-.PHONY : src/logger.cpp.i
+src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/Logger.cpp.i
+.PHONY : src/Logger.cpp.i
 
-src/logger.s: src/logger.cpp.s
-.PHONY : src/logger.s
+src/Logger.s: src/Logger.cpp.s
+.PHONY : src/Logger.s
 
 # target to generate assembly for a file
-src/logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/logger.cpp.s
-.PHONY : src/logger.cpp.s
+src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/Logger.cpp.s
+.PHONY : src/Logger.cpp.s
+
+src/MySQLOperator.o: src/MySQLOperator.cpp.o
+.PHONY : src/MySQLOperator.o
+
+# target to build an object file
+src/MySQLOperator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o
+.PHONY : src/MySQLOperator.cpp.o
+
+src/MySQLOperator.i: src/MySQLOperator.cpp.i
+.PHONY : src/MySQLOperator.i
+
+# target to preprocess a source file
+src/MySQLOperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.i
+.PHONY : src/MySQLOperator.cpp.i
+
+src/MySQLOperator.s: src/MySQLOperator.cpp.s
+.PHONY : src/MySQLOperator.s
+
+# target to generate assembly for a file
+src/MySQLOperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.s
+.PHONY : src/MySQLOperator.cpp.s
 
 # Help Target
 help:
@@ -216,9 +240,12 @@ help:
 	@echo "... src/GetDisplayContent.o"
 	@echo "... src/GetDisplayContent.i"
 	@echo "... src/GetDisplayContent.s"
-	@echo "... src/logger.o"
-	@echo "... src/logger.i"
-	@echo "... src/logger.s"
+	@echo "... src/Logger.o"
+	@echo "... src/Logger.i"
+	@echo "... src/Logger.s"
+	@echo "... src/MySQLOperator.o"
+	@echo "... src/MySQLOperator.i"
+	@echo "... src/MySQLOperator.s"
 .PHONY : help
 
 
