@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Logger.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.o CMakeFiles/Logger.dir/testLogger.cpp.o -o Logger

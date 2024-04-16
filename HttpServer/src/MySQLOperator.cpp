@@ -1,55 +1,28 @@
 #include "../include/MySQLOperator.hpp"
-#include <iostream>
-#include <mysql/mysql.h>
 
-class Database
+Database::Database(const std::string &host, const std::string &user, const std::string &password, const std::string &database)
 {
-public:
-    Database(const std::string &host, const std::string &user, const std::string &password, const std::string &database)
+    mysql_init(&mysql);
+    if (!mysql_real_connect(&mysql, host.c_str(), user.c_str(), password.c_str(), database.c_str(), 0, nullptr, 0))
     {
-        mysql_init(&mysql);
-        if (!mysql_real_connect(&mysql, host.c_str(), user.c_str(), password.c_str(), database.c_str(), 0, nullptr, 0))
-        {
-            std::cerr << "Error connecting to database: " << mysql_error(&mysql) << std::endl;
-        }
+        std::cerr << "Error connecting to database: " << mysql_error(&mysql) << std::endl;
     }
+}
 
-    ~Database()
+Database::~Database()
+{
+    mysql_close(&mysql);
+}
+
+bool Database::executeQuery(const std::string &query)
+{
+    if (mysql_query(&mysql, query.c_str()) != 0)
     {
-        mysql_close(&mysql);
+        std::cerr << "Query execution error: " << mysql_error(&mysql) << std::endl;
+        return false;
     }
-
-    bool executeQuery(const std::string &query)
-    {
-        if (mysql_query(&mysql, query.c_str()) != 0)
-        {
-            std::cerr << "Query execution error: " << mysql_error(&mysql) << std::endl;
-            return false;
-        }
-        return true;
-    }
-
-private:
-    MYSQL mysql;
-};
-
-// int main()
-// {
-//     // Connect to the MySQL database
-//     Database db("localhost", "username", "password", "database_name");
-
-//     // Execute a query
-//     if (db.executeQuery("INSERT INTO table_name (column1, column2) VALUES ('value1', 'value2')"))
-//     {
-//         std::cout << "Query executed successfully!" << std::endl;
-//     }
-//     else
-//     {
-//         std::cerr << "Failed to execute query!" << std::endl;
-//     }
-
-//     return 0;
-// }
+    return true;
+}
 
 // 实例  之后重写
 // int main()

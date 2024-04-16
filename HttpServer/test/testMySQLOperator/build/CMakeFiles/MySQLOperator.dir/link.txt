@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp.o CMakeFiles/MySQLOperator.dir/testMySQLOperator.cpp.o -o MySQLOperator  -lmysqlclient

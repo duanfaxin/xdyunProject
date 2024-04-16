@@ -19,9 +19,9 @@ Logger::~Logger()
 
 void Logger::log(LogLevel level, const std::string &message)
 {
-    std::time_t currentTime = std::time(nullptr);
+    std::time_t currentTime = std::time(nullptr); // 获取时间
     char timeString[100];
-    std::strftime(timeString, sizeof(timeString), "%Y-%m-%d %H:%M:%S", std::localtime(&currentTime));
+    std::strftime(timeString, sizeof(timeString), "%Y-%m-%d %H:%M:%S", std::localtime(&currentTime)); // 转成字符串
 
     std::string levelString;
     switch (level)
@@ -49,15 +49,3 @@ void Logger::log(LogLevel level, const std::string &message)
         std::cerr << "Log file is not open!" << std::endl;
     }
 }
-
-// int main()
-// {
-//     Logger logger("logfile.txt");
-
-//     logger.log(LogLevel::INFO, "This is an information message.");
-//     logger.log(LogLevel::DEBUG, "This is a debug message.");
-//     logger.log(LogLevel::WARNING, "This is a warning message.");
-//     logger.log(LogLevel::ERROR, "This is an error message.");
-
-//     return 0;
-// }

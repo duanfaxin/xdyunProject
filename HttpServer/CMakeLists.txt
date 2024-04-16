@@ -4,7 +4,7 @@ project("Pistache")
 
 include_directories ("/home/xdyun/tools/pistache/include/") 
 set(SOURCE_DIR src)
-set(SOURCE_FILES ${SOURCE_DIR}/GetDisplayContent.cpp ${SOURCE_DIR}/Logger.cpp ${SOURCE_DIR}/MySQLOperator.cpp)
+set(SOURCE_FILES ${SOURCE_DIR}/GetDisplayContent.cpp ${SOURCE_DIR}/Logger.cpp ${SOURCE_DIR}/MySQLOperator.cpp  ${SOURCE_DIR}/ToolClass.cpp)
 
 add_executable(${PROJECT_NAME} restServer.cpp ${SOURCE_FILES})
-target_link_libraries(${PROJECT_NAME} pistache)
+target_link_libraries(${PROJECT_NAME} pistache -lmysqlclient)

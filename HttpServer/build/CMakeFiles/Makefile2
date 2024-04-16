@@ -81,12 +81,12 @@ clean: CMakeFiles/Pistache.dir/clean
 CMakeFiles/Pistache.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Pistache"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Pistache"
 .PHONY : CMakeFiles/Pistache.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Pistache.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Pistache.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles 0
 .PHONY : CMakeFiles/Pistache.dir/rule

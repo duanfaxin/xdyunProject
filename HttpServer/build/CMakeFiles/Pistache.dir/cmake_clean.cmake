@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pistache.dir/src/Logger.cpp.o.d"
   "CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o"
   "CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.o.d"
+  "CMakeFiles/Pistache.dir/src/ToolClass.cpp.o"
+  "CMakeFiles/Pistache.dir/src/ToolClass.cpp.o.d"
   "Pistache"
   "Pistache.pdb"
 )

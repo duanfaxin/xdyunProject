@@ -225,6 +225,30 @@ src/MySQLOperator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/MySQLOperator.cpp.s
 .PHONY : src/MySQLOperator.cpp.s
 
+src/ToolClass.o: src/ToolClass.cpp.o
+.PHONY : src/ToolClass.o
+
+# target to build an object file
+src/ToolClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/ToolClass.cpp.o
+.PHONY : src/ToolClass.cpp.o
+
+src/ToolClass.i: src/ToolClass.cpp.i
+.PHONY : src/ToolClass.i
+
+# target to preprocess a source file
+src/ToolClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/ToolClass.cpp.i
+.PHONY : src/ToolClass.cpp.i
+
+src/ToolClass.s: src/ToolClass.cpp.s
+.PHONY : src/ToolClass.s
+
+# target to generate assembly for a file
+src/ToolClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pistache.dir/build.make CMakeFiles/Pistache.dir/src/ToolClass.cpp.s
+.PHONY : src/ToolClass.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... src/MySQLOperator.o"
 	@echo "... src/MySQLOperator.i"
 	@echo "... src/MySQLOperator.s"
+	@echo "... src/ToolClass.o"
+	@echo "... src/ToolClass.i"
+	@echo "... src/ToolClass.s"
 .PHONY : help
 
 

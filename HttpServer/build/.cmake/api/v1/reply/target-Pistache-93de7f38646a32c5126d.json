@@ -59,7 +59,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -75,6 +76,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "-lpistache",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lmysqlclient",
 				"role" : "libraries"
 			}
 		],
@@ -96,7 +102,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -124,6 +131,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/MySQLOperator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ToolClass.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
