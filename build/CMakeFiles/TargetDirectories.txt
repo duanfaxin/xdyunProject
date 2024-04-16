@@ -1,3 +1,0 @@
-/home/xdyun/xdyunGit/xdyunProject/build/CMakeFiles/Pistache.dir
-/home/xdyun/xdyunGit/xdyunProject/build/CMakeFiles/edit_cache.dir
-/home/xdyun/xdyunGit/xdyunProject/build/CMakeFiles/rebuild_cache.dir
