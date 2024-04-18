@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.o"
+  "CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.o.d"
   "CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp.o"
   "CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp.o.d"
+  "CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.o"
+  "CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.o.d"
   "CMakeFiles/MySQLOperator.dir/testMySQLOperator.cpp.o"
   "CMakeFiles/MySQLOperator.dir/testMySQLOperator.cpp.o.d"
   "MySQLOperator"

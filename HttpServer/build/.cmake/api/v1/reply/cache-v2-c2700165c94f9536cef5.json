@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/xdyun/xdyunGit/xdyunProject/build"
+			"value" : "/home/xdyun/xdyunGit/xdyunProject/HttpServer/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xdyun/xdyunGit/xdyunProject/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/xdyun/xdyunGit/xdyunProject/HttpServer/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xdyun/xdyunGit/xdyunProject/build"
+			"value" : "/home/xdyun/xdyunGit/xdyunProject/HttpServer/build"
 		},
 		{
 			"name" : "Pistache_IS_TOP_LEVEL",

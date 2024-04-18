@@ -1,5 +1,6 @@
 #include <iostream>
 #include <mysql/mysql.h>
+#include "ToolClass.hpp"
 
 class Database
 {

@@ -9,14 +9,18 @@ std::map<std::string, std::map<std::string, std::string>> IniParse::IniParse::pa
     std::map<std::string, std::map<std::string, std::string>> iniData;
     std::string line;
     std::string currentSection;
+    std::cout << " __FILE__ " << __FILE__ << " __LINE__ " << __LINE__ << std::endl;
+
     if (file.is_open())
     {
+        std::cout << " open " << __LINE__ << std::endl;
         while (std::getline(file, line))
         {
+            std::cout << " line " << line << std::endl;
             // 去掉行首尾的空白字符
             line.erase(0, line.find_first_not_of(" \t\r\n"));
             line.erase(line.find_last_not_of(" \t\r\n") + 1);
-
+            std::cout << " line " << line << std::endl;
             // 跳过注释和空行
             if (line.empty() || line[0] == ';' || line[0] == '#')
                 continue;
@@ -30,6 +34,7 @@ std::map<std::string, std::map<std::string, std::string>> IniParse::IniParse::pa
 
             // 解析键值对
             size_t delimiterPos = line.find('=');
+            std::cout << " currentSection " << currentSection << std::endl;
             if (delimiterPos != std::string::npos)
             {
                 std::string key = line.substr(0, delimiterPos);
@@ -46,8 +51,10 @@ std::map<std::string, std::map<std::string, std::string>> IniParse::IniParse::pa
     }
     else
     {
+        // std::cout << " open " << __LINE__ << std::endl;
         Logger logger("/home/xdyun/xdyunGit/xdyunProject/HttpServer/logs/logfile.txt");
         logger.log(LogLevel::ERROR, "This is an error message.");
     }
+    std::cout << " __FILE__ " << __FILE__ << " __LINE__ " << __LINE__ << std::endl;
     return iniData;
 }

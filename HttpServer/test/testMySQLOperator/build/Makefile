@@ -129,6 +129,30 @@ MySQLOperator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySQLOperator.dir/build.make CMakeFiles/MySQLOperator.dir/build
 .PHONY : MySQLOperator/fast
 
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.o: home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.o
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.o
+
+# target to build an object file
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySQLOperator.dir/build.make CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.o
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.o
+
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.i: home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.i
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.i
+
+# target to preprocess a source file
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySQLOperator.dir/build.make CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.i
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.i
+
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.s: home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.s
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.s
+
+# target to generate assembly for a file
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySQLOperator.dir/build.make CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.s
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.cpp.s
+
 home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.o: home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp.o
 .PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.o
 
@@ -152,6 +176,30 @@ home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.s: home/xdyun/xdyu
 home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySQLOperator.dir/build.make CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp.s
 .PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.cpp.s
+
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.o: home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.o
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.o
+
+# target to build an object file
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySQLOperator.dir/build.make CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.o
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.o
+
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.i: home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.i
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.i
+
+# target to preprocess a source file
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySQLOperator.dir/build.make CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.i
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.i
+
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.s: home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.s
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.s
+
+# target to generate assembly for a file
+home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySQLOperator.dir/build.make CMakeFiles/MySQLOperator.dir/home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.s
+.PHONY : home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.cpp.s
 
 testMySQLOperator.o: testMySQLOperator.cpp.o
 .PHONY : testMySQLOperator.o
@@ -186,9 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MySQLOperator"
+	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.o"
+	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.i"
+	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/Logger.s"
 	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.o"
 	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.i"
 	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/MySQLOperator.s"
+	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.o"
+	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.i"
+	@echo "... home/xdyun/xdyunGit/xdyunProject/HttpServer/src/ToolClass.s"
 	@echo "... testMySQLOperator.o"
 	@echo "... testMySQLOperator.i"
 	@echo "... testMySQLOperator.s"

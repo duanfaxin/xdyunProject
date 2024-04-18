@@ -8,6 +8,7 @@ namespace IniParse
 {
     class IniParse
     {
+    public:
         IniParse(const std::string &filename);
 
         /*
